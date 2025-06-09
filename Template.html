@@ -1,0 +1,197 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- 
+    Final Project website
+    Author: Onyema Kalu
+    Date: 05/11/2025
+    
+    Filename index.html
+    
+-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>template</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">FitLife</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#programs">Programs</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#schedule">Schedule</a></li>
+                <li><a href="#signup">Sign Up</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#benefits">Benefits</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<section class="audio-section" id="audio">
+        <h2>Motivational Audio</h2>
+        <audio controls autoplay muted loop>
+        <source src="cyberpunk-machine.mp3" type="audio/mpeg">
+        <!-- browser does not support the audio element -->
+        </audio>
+       
+</section>
+
+
+
+    <section class="hero" id="home">
+        <div class="hero-text">
+            <h1>Transform Your Body, Transform Your Life</h1>
+            <p>Join the best fitness programs designed for all levels.</p>
+            <a href="#programs" class="btn">Get Started</a>
+        </div>
+    </section>
+
+    <section class="programs" id="programs">
+        <h2>Our Programs</h2>
+        <div class="program-cards">
+            <div class="card">
+                <h3>Strength Training</h3>
+                <p>Build muscle, burn fat, and get stronger with our expert-led workouts.</p>
+            </div>
+            <div class="card">
+                <h3>Yoga & Flexibility</h3>
+                <p>Improve flexibility, balance, and mindfulness with our yoga sessions.</p>
+            </div>
+            <div class="card">
+                <h3>Music Dancing Excercise (Cardio)</h3>
+                <p>Boost your heart health and stamina with high-energy cardio workouts.</p>
+            </div>
+    </section>
+
+     <section class="testimonials" id="testimonials">
+            <br>
+            <h2>What Our Members Say</h2>
+            <br>
+    <div class="testimonial-cards">
+        <div class="testimonial">
+            <p>"FitLife completely changed my routine! I'm healthier, more energetic, and confident."</p>
+            <h4>- Sarah K.</h4>
+        </div>
+        <div class="testimonial">
+            <p>"Their trainers are super knowledgeable and the community is very supportive."</p>
+            <h4>- James R.</h4>
+        </div>
+        <div class="testimonial">
+            <p>"I love how flexible and easy it is to follow their programs, even with a busy schedule."</p>
+            <h4>- Maya L.</h4>
+        </div>
+    </div>
+        </div>
+    </section>
+
+    <section class="signup-form" id="signup">
+        <h2>Join FitLife Today</h2>
+            <form action="#" method="post" class="form-container">
+            <input type="text" name="name" placeholder="Full Name" required>
+            <input type="email" name="email" placeholder="Email Address" required>
+    <select name="plan" required>
+            <option value="">Select Plan</option>
+            <option value="basic">Basic</option>
+            <option value="premium">Premium</option>
+            <option value="pro">Pro</option>
+    </select>
+            <textarea name="message" rows="4" placeholder="Your goals or questions..."></textarea>
+            <button type="submit">Sign Up</button>
+            </form>
+    </section>
+
+
+
+        <section class="about" id="about">
+        <div>
+        <h2>About FitLife</h2>
+        <p>At FitLife, we believe fitness should be accessible, fun, and empowering. Whether you're 
+            just starting or a seasoned athlete, our expert coaches and programs help you achieve 
+            your goals. FitLife was founded in 2020 with a simple mission: to make fitness accessible
+            and enjoyable for everyone. Our certified trainers and nutritionists are passionate about helping individuals reach their health goals 
+            through personalized plans, community support, and science-backed programs.
+        </p>
+        </div>
+       <img src="wgym.jpg" alt="lads ready to workout" class="irregularWrap" />
+
+    </section>
+
+    <section class="benefits" id="benefits">
+        <h2>Top Benefits of Joining FitLife</h2>
+            <ul class="benefits-list">
+                <li>💪 Personalized workout plans</li>
+                <li>🥗 Nutrition guidance from certified experts</li>
+                <li>📱 Mobile access to workouts anytime, anywhere</li>
+                <li>🤝 Community support and motivation</li>
+                <li>🎯 Track your progress with advanced tools</li>
+            </ul>
+    </section>
+
+    <section class="template" id="main">
+    </section>
+<section class="schedule" id="schedule">
+  <h2>Weekly Class Schedule</h2>
+  <table class="class-table">
+    <thead>
+      <tr>
+        <th>Day</th>
+        <th>Class</th>
+        <th>Time</th>
+        <th>Trainer</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Monday</td>
+        <td>HIIT</td>
+        <td>6:00 AM - 7:00 AM</td>
+        <td>Alex</td>
+      </tr>
+      <tr>
+        <td>Tuesday</td>
+        <td>Yoga</td>
+        <td>7:00 AM - 8:00 AM</td>
+        <td>Sophia</td>
+      </tr>
+      <tr>
+        <td>Wednesday</td>
+        <td>Cardio Burn</td>
+        <td>6:00 PM - 7:00 PM</td>
+        <td>Ryan</td>
+      </tr>
+      <tr>
+        <td>Thursday</td>
+        <td>Strength Training</td>
+        <td>5:00 PM - 6:00 PM</td>
+        <td>Emma</td>
+      </tr>
+      <tr>
+        <td>Friday</td>
+        <td>Pilates</td>
+        <td>8:00 AM - 9:00 AM</td>
+        <td>Liam</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+
+
+    <footer id="contact">
+        <p> Contact us at <a href="mailto:info@fitlife.com">
+            <br>
+            46 Davis street,
+            <br>
+            Fort Worth, TX 75648.
+            <br>
+            465-354-7489,
+            info@fitlife.com</a></p>
+        <p>&copy; 2025 FitLife. All rights reserved.</p>
+    </footer>
+</body>
+</html>
